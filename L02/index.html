@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Här startar mitt html-dokument -->
+<head> <!-- Här startar dokument huvudet -->
+    <!-- Du kan skapa kommentarer i HTML genom att använda dessa "taggar" -->
+    <!-- 
+        Min kommentar kan täcka fler
+        rader i HTML-dokumnetet. 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min första hemsida</title>
+
+    <style>
+        /*
+            Så här ser en kommentar ut i CSS
+        */
+        .highlight {
+            background-color: lightsalmon;
+        }
+    </style>
+    <!-- Länk till "extern" CSS -->
+    <link rel="stylesheet" href="style.css"> 
+
+    <script>
+        console.log('Hello FE23!');
+        /*
+            En JavaScript-kommentar.
+         */
+    </script>
+    <script src="script.js"></script>
+
+</head> <!-- Här slutar dokument huvudet -->
+<body>
+    
+    <h1>Lektion 2 - Grunderna i HTML (huvudrubrik)</h1>
+    <h2>Rubrik - h2</h2>
+    <h3>Rubrik - h3</h3>
+    <h4>Rubrik - h4</h4>
+    <h5>Rubrik - h5</h5>
+    <h6>Rubrik - h6</h6>
+
+    <p>
+        Rubriker används för att strukturera innehåll. Innehållet
+        delas upp i olika delar. Tänk hur en bok är strukturerad.<br>
+    </p>
+    <p>
+        h1 - är bokens titel<br>
+        h2 - är ett kapitel<br>
+        h3 - är en sektion i ett kapitel<br>
+        osv<br>
+    </p>
+    <p>
+        - Du får "syntaktiskt" ha mer än en h1-tag. Men det är inte
+        rekommenderat - då påverkar hur sökmotorerna indexerar
+        sidan.<br>
+        - Undvik "hål" i rubrik hierarkin. Navigation kan påverkas 
+        och det kan påverka indexering.<br>
+        - Nästla (stoppa en hX-tag i en annan hX-tag)<br>
+        - Struktur, inte utseende. Om syftet "bara" är att få en text 
+        som är ser ut på ett speciellt sätt - använd t.ex. en 
+        &lt;span&gt;-tag istället.
+    </p>    
+
+    <h2 id="specialtecken">Specialtecken</h2>
+    <p>
+        Tecken som är skyddade av HTML: &lt;, &gt;, &amp;, &apos; and &quot;<br>
+
+        Andra som kan vara kul: &hearts;, &clubs;, &diams; and &spades;<br>
+
+        En lista kan hittas <a href="https://www.html.am/reference/html-special-characters.cfm">här</a>. 
+    </p>
+
+    <div style="height: 400px; background-color: lightseagreen">
+        <hr>
+        <h2>Detta är ett block-element</h2>
+        <p>
+            - börjar med en ny rad<br>
+            - ibland har dem padding (utrymme)<br>
+            - tar hela bredden<br>
+            - du kan "styla om dem" - bredd och höjd<br>
+        </p>
+    </div>
+
+    <h2>Länkar</h2>
+    <p>
+       <a href="https://google.se" target="_blank">Googles Svenska Webbplats!</a> <br>
+       <a href="#specialtecken">Till specialtecken</a>
+    </p>
+
+    <p>Detta är ett bMen även strong fungerar.lock-element!</p>
+    <div>
+        <b>Vi kan använda &lt;b&gt;-taggen för att skriva fetstil.</b><br>
+        <strong></strong><br>
+        <i>Detta är &lt;i&gt;-taggen - den ger kursivstil.</i><br>
+        <em>Men det gör också em.</em><br>
+        <span>Detta är en span-tagg utan attribut.</span><br>
+        <span style="font-weight: bold;">Denna är fetstil.</span><br>
+        <span style="font-style:italic">Denna är kursiv.</span><br>
+        <span style="color: green">Denna text blir grön!</span><br>
+        <span class="highlight">Denna stilen kommer från &lt;style&gt;-taggen i toppen på dokumentet.</span>
+    </div>
+
+    <div style="height: 200px">&nbsp;</div>
+</body>
+</html>
