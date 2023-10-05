@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML &amp; CSS: Bilder, Media och Listor</title>
+  </head>
+  <body>
+    <h1>HTML &amp; CSS: Bilder, Media och Listor</h1>
+
+    <h2>Bilder</h2>
+
+    <p>
+      <!-- style="background-color: lightseagreen;" -->
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+      deserunt, quibusdam explicabo ipsam voluptatibus, dolor facere aperiam
+      voluptates quasi voluptatum exercitationem error. Excepturi, doloremque
+      aliquid.
+      <!--
+        <img src="img/photo.jpeg" alt="Foto av Martin med en gul gummianka!">
+        <img src="img/photo.jpeg" alt="Foto av Martin med en gul gummianka" width="200" height="50">
+        -->
+      <!--
+        <figure style="background-color: lightsalmon">
+            <img src="img/photo.jpeg" alt="Foto av Martin med en gul gummianka" style="width: 25%">
+            <figcaption>Bild på Martin</figcaption>
+        </figure>
+        -->
+      <img
+        src="img/photo.jpeg"
+        alt="Foto av Martin med en gul gummianka"
+        style="width: 25%"
+      />
+    </p>
+
+    <h2>Media</h2>
+
+    <h3>Video</h3>
+
+    <video controls>
+      <source src="video/video.mp4" type="video/mp4" />
+      <p>Din webbläsare har inte stöd för videoklippet. 🥲</p>
+    </video>
+
+    <h3>Audio</h3>
+
+    <audio>
+      <source src="audio/audio.mp3" type="audio/mp3" />
+      <p>Din webbläsare har inte stöd för detta ljudklipp. 🥲</p>
+    </audio>
+
+    <h3>Objekt</h3>
+
+    <object
+      data="data/pdffil.pdf"
+      type="application/pdf"
+      height="500"
+      width="800"
+    >
+      <p>Din webbläsare har inte stöd för att visa denna PDF. 🥲</p>
+    </object>
+
+    <h3>Inbäddad</h3>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/q1MrFVwcmEQ?si=FFC1KMWRuIXpeofT"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
