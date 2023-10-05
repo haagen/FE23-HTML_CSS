@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML &amp; CSS: Box-modellen</title>
+  </head>
+  <body style="margin: 0">
+    <h1>HTML &amp; CSS: Box-modellen</h1>
+
+    <div style="background-color: lightsalmon">
+      <p>Detta är en "box".</p>
+    </div>
+
+    <div
+      style="
+        background-color: lightblue;
+        padding: 0px;
+        margin: 10px auto;
+        width: 50%;
+      "
+    >
+      <!--
+        margin-left: 200px;
+        margin-right: 200px;
+    -->
+      <p>Detta är en annan box!</p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+        reiciendis quis laudantium dolorum, et rem magnam officia suscipit nisi
+        accusantium doloribus. Aspernatur et suscipit aliquid iste eligendi
+        possimus error, impedit perferendis repellat repellendus reiciendis
+        nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Consequatur dolorum reiciendis impedit magnam iste enim, repellendus
+        reprehenderit eius ducimus dolorem magni officiis ab ea veniam quo
+        ratione, error cum labore doloremque repudiandae suscipit ut fugit!
+      </p>
+    </div>
+
+    <div
+      style="
+        background-color: lightcyan;
+        width: 600px;
+        border: 10px solid black;
+        border-radius: 5px;
+        height: 300px;
+        margin: 0 auto;
+      "
+    >
+      <div
+        style="
+          background-color: lightseagreen;
+          width: 150px;
+          height: 100px;
+          display: inline-block;
+        "
+      >
+        &nbsp;
+      </div>
+      <div
+        style="background-color: lightpink; width: 400px; display: inline-block"
+      >
+        &nbsp;
+      </div>
+      <div
+        style="
+          background-color: lightgoldenrodyellow;
+          width: 50px;
+          height: 50px;
+          display: inline-block;
+        "
+      >
+        &nbsp;
+      </div>
+    </div>
+
+    <h2>Float</h2>
+
+    <div
+      style="
+        background-color: lightcyan;
+        width: 600px;
+        border: 10px solid black;
+        border-radius: 5px;
+        height: 100%;
+        margin: 0 auto;
+      "
+    >
+      <div
+        style="
+          background-color: lightseagreen;
+          width: 25%;
+          height: 100%;
+          float: left;
+          padding: 15px;
+          box-sizing: border-box;
+        "
+      >
+        &nbsp;
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minus accusantium repudiandae aspernatur officia quibusdam quod, dolor soluta fuga rem!
+      </div>
+      <div
+        style="
+          background-color: lightpink;
+          width: 75%;
+          height: 100%;
+          float: left;
+          padding: 15px;
+          box-sizing: border-box;
+        "
+      >
+        &nbsp;
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sequi minima distinctio voluptas quo dolorem dolorum est iste quae, accusantium enim commodi quisquam, delectus temporibus fugit debitis! Recusandae dolore deserunt ullam sed, quo consectetur dignissimos, corrupti tenetur porro aperiam autem similique eum, quidem harum illum excepturi cumque molestiae? Laudantium numquam, maxime sint molestias aspernatur voluptatem aliquam excepturi incidunt soluta quidem ab consequuntur? Dicta, consequatur ipsa voluptatibus maxime exercitationem deserunt. Et dolore impedit soluta maiores commodi, fugit molestias iure nulla. Facere aspernatur, quam quaerat doloremque perspiciatis nesciunt in minus eaque expedita eligendi dicta illum corrupti, quisquam debitis aliquid. Incidunt iusto tempore facere veritatis minus at, consequuntur dolores aut optio autem aspernatur perspiciatis eveniet laborum velit voluptatibus, facilis obcaecati dolorem culpa quod!
+      </div>
+<!-- 
+      <div style="background-color: lightgoldenrodyellow; width: 25%; height: 75px; float: left; clear: both;">&nbsp;</div>
+-->
+    </div>
+
+    <div style="height: 100px; clear: both;">&nbsp;</div>
+  </body>
+</html>
