@@ -11,13 +11,13 @@
 
     <h2>Tabeller</h2>
 
-    <table border="1" style="width: 100%">
+    <table style="width: 100%; border: 1px solid black; border-radius: 4px;">
         <caption>
             <span style="font-size: 28px"><b>Quiz-toppllista</b></span>
         </caption>
         <thead>
             <tr> <!-- startar en nya rad i tabellen -->
-                <th style="width: 75%">Nickname</th>
+                <th style="width: 75%; border: 1px solid black">Nickname</th>
                 <th style="width: 25%">Poäng</th>
             </tr>
         </thead>  
@@ -37,6 +37,49 @@
             </tr>
         </tfoot>
     </table>
+
+    <h2>Formulär</h2>
+
+    <form>
+        <div>
+            <input type="submit" value="Skicka först">
+        </div>
+        <div>
+            <label for="name" style="display: block">Skriv hela ditt namn:</label>
+            <input type="text" name="name" id="name" style="display: block" placeholder="Skriv ditt namn">
+            <label for="pwd" style="display: block">Lösenord:</label>
+            <input type="password" name="pwd" id="pwd" style="display: block" >
+        </div>
+        <div>
+            <label for="meddelande" style="display: block">Ditt meddelande till oss</label>
+            <textarea id="meddelande" name="message" style="display: block" placeholder="Skriv det meddelande här..." rows="10" cols="40"></textarea>
+        </div>
+        <div>
+            <label for="pizza" style="display: block">Välj din favvo pizza:</label>
+            <select id="pizza" name="pizza" style="display: block">
+                <option value="pizza1">Kallzune</option>
+                <option value="pizza2" selected>Margrete</option>
+                <option value="pizza3">Tobbe</option>
+            </select>
+        </div>
+        <div>
+            <label for="tc">Terms and conditions</label>
+            <input type="checkbox" name="ts_and_cs" id="tc">
+        </div>
+        <div>
+            <h4>Välj färg på pizzakartongen</h4>
+            <input type="radio" name="color" value="red" id="red">
+            <label for="red">Röd</label>
+            <input type="radio" name="color" value="yellow" id="yellow" checked>
+            <label for="yellow">Gul</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Skicka">     
+            <input type="button" value="Knapp">
+            <button><img src="logo.svg" alt="Logo" width="100   "></button>
+        </div>
+    </form>
 
 </body>
 </html>
