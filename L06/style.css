@@ -20,11 +20,71 @@
 input[type="text"] {
     display: block;
 }
-
+/* 
 p + p {
     text-indent: 10px;
 }
 
 p > span {
     text-decoration: underline;
+} */
+
+.spacer {
+    padding: 20px 0 20px 0;
+}
+
+a:link {
+    font-weight: 900;
+    color: lightpink;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover {
+    font-weight: 900;
+    color: lime;
+}
+
+a:active {
+    font-weight: 900;
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p:first-child {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p:last-child {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+p:nth-child(2) {
+    color: yellowgreen;
+}
+
+.spacer p:nth-of-type(odd) {
+    color: purple;
+}
+
+li {
+    font-size: 10vh;
+}
+
+/* html {
+    font-size: 10px;
+} */
+
+#myNewBox {
+    background-color: lightsalmon;
+    height: 50vh;
+    width: 50vw;
 }
