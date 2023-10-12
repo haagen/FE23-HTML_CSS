@@ -1,0 +1,30 @@
+/*
+    I vår CSS-fil kan vi också skapa kommentarer
+*/
+
+.green {
+    color: white;
+    background-color: green;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+#minBlåRuta {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+}
+
+input[type="text"] {
+    display: block;
+}
+
+p + p {
+    text-indent: 10px;
+}
+
+p > span {
+    text-decoration: underline;
+}

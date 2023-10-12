@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML &amp; CSS: Introduktion till CSS</title>
+    <style>
+      /* Här kan vi skriva intern CSS-kod */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: lightseagreen;
+      }
+    </style>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 style="font-family: Verdana, sans-serif">
+      HTML &amp; CSS: Introduktion till CSS
+    </h1>
+
+    <p>
+      Detta är en helt vanlig text. Bla bla bla. Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. <em>Sequi</em> praesentium voluptates dolorum! Totam
+      debitis <span class="green">labore</span> harum sint distinctio esse reprehenderit quaerat asperiores
+      dolorem corporis <span class="bold">ratione</span> voluptates <span class="green bold">laborum</span>, dignissimos autem, dolor
+      suscipit ex iusto vero enim!
+    </p>
+
+    <div id="minBlåRuta">&nbsp;</div>
+
+    <div class="spacer">
+        <form>
+            <span type="text">Mitt formulär</span>
+            <label for="name">Mitt namn</label>
+            <input type="text" name="name" id="name">
+            <input type="button" value="Like">
+        </form>
+    </div>
+
+    <div>
+        <p>Detta är min fösta paragraf - <span>med fet stil</span>!</p>
+        <p>Detta är min andra paragraf!</p>
+        <p>Detta är min tredje paragraf!!</p>
+    </div>
+
+  </body>
+</html>
