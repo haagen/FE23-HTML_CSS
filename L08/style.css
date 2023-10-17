@@ -1,0 +1,30 @@
+
+#flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 400px;
+    flex-direction: column;;
+}
+
+#flexcontainer > div {
+    /* margin: 10px; */
+    width: 100px;
+}
+
+#flex1 {
+    background-color: lightseagreen;
+    order: 3;
+}
+
+#flex2 {
+    background-color: lightsalmon;
+    order: 1;
+}
+
+#flex3 {
+    background-color: skyblue;
+    order: 2;
+}

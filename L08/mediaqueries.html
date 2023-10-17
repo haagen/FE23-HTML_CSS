@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: red;
+        }
+
+        @media screen and (min-width: 200px) {
+        
+            div {
+                background-color: orange;
+            }
+
+        }
+
+        @media screen and (min-width: 400px) {
+        
+            div {
+                background-color: yellow;
+            }
+
+        }    
+        
+        @media screen and (min-width: 600px) {
+        
+            div {
+                background-color: green;
+            }
+
+        }   
+  
+
+    /*  @media screen and (min-width: 200px) and (max-width: 399px){
+        
+        div {
+            background-color: orange;
+        }
+
+    }
+
+    @media screen and (min-width: 400px) and (max-width: 599px) {
+        
+        div {
+            background-color: yellow;
+        }
+
+    }     */
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>HTML &amp; CSS: Mediafrågor (Media Queries)</h1>
+    </div>
+    
+</body>
+</html>
