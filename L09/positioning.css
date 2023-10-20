@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#static {
+    background-color: lightpink;
+}
+
+#relative {
+    background-color: cyan;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+#absolute {
+    background-color: green;
+    width: 200px;
+    position: absolute;
+    /* bottom: 0;
+    right: 0; */
+    right:0; 
+    top:0;
+    z-index: 2;
+}
+
+header {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.spacer {
+    height: 1500px;
+    background-color: lightgrey;
+}
+
+.spacer2 {
+    height: 1500px;
+    background-color: lightskyblue;
+}
+
+#sticky {
+    background-color: azure;
+    width: 400px;
+    position: sticky;
+    top: 100px;
+    /* left: 0; */
+    right: 0;
+    float: right;
+}
+
+h1 {
+    margin-top: 100px;
+}
