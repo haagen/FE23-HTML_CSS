@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Fuggles";
+    src: local("Fuggles"), url("../fonts/Fuggles-Regular.ttf");
+}
+/*
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*/
+.mysteryColor1 {
+    background-color: #FFA071;
+}
+
+.mysteryColor2 {
+    background-color: rgb(144, 238, 144);
+}
+
+.mysteryColor3 {
+    background-color: hsl(234, 56%, 78%);
+}
+
+#childBox1, #childBox2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+#childBox1 {
+    background-color: hsl(234, 56%, 78%);
+}
+
+#childBox2 {
+    background-color: rgb(144, 238, 144);
+    top: -50px;
+    opacity: 0.5;
+}
+
+body { 
+    background-color: lightseagreen;
+}
+
+#backgroundDiv {
+    /* width: 500px; */
+    height: 500px;
+    /* width: 1000px; */
+    width: 100%;
+    background-image: url('../img/jeep.jpeg');
+    /* contain, cover, <no> <no>, auto */
+    background-size: cover;
+    background-position: left;
+    /* repeat, no-repeat, repeat-x, repeat-y */
+    background-repeat: no-repeat;
+    /* scroll, fixed, local */
+    background-attachment: scroll;
+
+    /* overflow-y:scroll; */
+}
+
+.spacer {
+    height: 500px;
+}
+
+.myFont {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.testText {
+    text-indent: 2rem;
+    text-transform: uppercase;
+}
+
+li {
+    /* list-style-type:decimal; */
+    /* list-style-image: url("../img/jeep.jpeg"); */
+    list-style: none;
+    background: no-repeat left top url("../img/icon.jpg");
+    padding: 3px 0px 3px 35px;
+    margin: 0;
+}
