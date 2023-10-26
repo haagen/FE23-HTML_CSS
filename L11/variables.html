@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML &amp; CSS: CSS Variabler</title>
+    <style>
+
+        :root {
+            --primaryColor: yellow; 
+            --secondaryColor: orange;
+            --mainFont: Verdana, Geneva, Tahoma, sans-serif;
+            --mainWidth: 550px;
+        }
+
+        * {
+            font-family: var(--mainFont);
+        }
+
+        p {
+            max-width: var(--mainWidth);
+        }
+
+        h1 {
+            color:var(--primaryColor, blue);
+        }
+
+        .highlight {
+            background-color: var(--secondaryColor);
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>HTML &amp; CSS: CSS Variabler</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam amet
+      expedita in eveniet dignissimos non excepturi cupiditate officia atque
+      optio, laboriosam incidunt dolorum corporis, accusamus vero
+      necessitatibus, quibusdam consequatur earum velit facilis odit. Vitae,
+      saepe.
+    </p>
+
+    <p class="highlight">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos
+      praesentium consectetur voluptate maiores reiciendis eveniet id quas neque
+      voluptates ex laborum cupiditate, laboriosam, molestiae hic magnam,
+      voluptas quis itaque sapiente deserunt commodi architecto ullam doloribus
+      ducimus? Impedit aliquam minima sed incidunt consequatur. Veniam,
+      doloribus.
+    </p>
+  </body>
+</html>
